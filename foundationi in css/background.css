@@ -1,0 +1,161 @@
+/* Base Page Styling */
+body {
+  background-color: #121212;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  color: #e0e0e0;
+}
+
+/* Header Styling */
+header {
+  background-color: #2e7d32;
+  color: #ffffff;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+/* Section Cards */
+section {
+  background-color: #1e1e1e;
+  padding: 25px;
+  margin-bottom: 25px;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Headings Styling */
+h1, h2, h3 {
+  background-color: #1565c0;
+  color: #ffffff;
+  padding: 12px 16px;
+  border-radius: 6px;
+  margin-top: 0;
+}
+
+/* Paragraphs & Pseudo-elements */
+p {
+  background-color: #fffde7;
+  color: #333333;
+  padding: 15px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+p::first-line {
+  background-color: #c8e6c9;
+}
+
+/* Inline Span */
+span {
+  background-color: #ad1457;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Lists Styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+ul li:nth-child(odd) {
+  background-color: #006064;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+ul li:nth-child(even) {
+  background-color: #00838f;
+  color: #ffffff;
+  padding: 10px 15px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+th {
+  background-color: #6a1b9a;
+  color: #ffffff;
+  padding: 12px;
+  border: 1px solid #4a148c;
+  text-align: left;
+}
+
+td {
+  background-color: #261c2c;
+  color: #e0e0e0;
+  padding: 12px;
+  border: 1px solid #3c2a4d;
+}
+
+/* Form Elements Styling */
+input, textarea, button {
+  padding: 10px;
+  border: 1px solid #444444;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+input[type="text"], textarea {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  background-color: #d84315;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #f4511e;
+}
+
+/* Links Styling */
+a {
+  background-color: #0277bd;
+  color: #ffffff;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.2s;
+}
+
+a:hover {
+  background-color: #0288d1;
+}
