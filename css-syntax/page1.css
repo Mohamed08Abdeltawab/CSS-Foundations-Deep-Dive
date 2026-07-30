@@ -1,0 +1,95 @@
+/* Header Elements */
+h1 {
+  color: blue;
+  font-size: 50px;
+}
+
+/* Paragraph Defaults */
+p {
+  color: red;
+  line-height: 1.5;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Pseudo-elements for Paragraphs */
+p::first-letter {
+  font-weight: bold;
+  color: red;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+/* Class Selectors */
+.highlight {
+  background-color: yellow;
+  color: green;
+  font-size: 30px;
+}
+
+/* ID Selectors */
+#main-header {
+  color: darkblue;
+  text-align: center;
+  font-size: 24px;
+}
+
+#unique {
+  color: blue;
+  font-size: 40px;
+}
+
+/* Attribute Selectors */
+[title] {
+  border: 2px dashed green;
+  padding: 5px;
+}
+
+input[type="text"] {
+  border: 5px solid green;
+}
+
+/* Pseudo-classes */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Descendant & Child Selectors */
+div span {
+  color: purple;
+  font-style: italic;
+}
+
+/* any p is child of a container class */
+.container > p {
+  border: 1px solid blue;
+  padding: 5px;
+}
+
+/* Sibling Selectors */
+h2 + p {
+  color: darkred;
+}
+
+h2 ~ p {
+  font-size: 14px;
+}
+
+/* Multiple Classes Selector */
+.btn.primary {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  display: inline-block;
+}
+
+/* Grouping Selector for Table */
+table, th, td {
+  border: 1px solid purple;
+}

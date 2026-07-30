@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Combined CSS Demo</title>
+  <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+
+  <!-- Header Styling -->
+  <h1>Main Heading Standard Style</h1>
+  <h1 id="main-header">Main Header with Centered Style</h1>
+
+  <!-- Paragraphs & Pseudo-elements -->
+  <p>This is a standard paragraph showing line height, font family, first letter, and first line formatting in action.</p>
+
+  <!-- Class & Attribute Selector -->
+  <p class="highlight" title="Highlighted Box">
+    This paragraph has both the highlight class and a title attribute.
+  </p>
+
+  <!-- Unique ID -->
+  <div id="unique">Div block styled using the unique ID selector.</div>
+
+  <br>
+
+  <!-- Links & Hover -->
+  <p><a href="#">Hover over this link to test pseudo-class behavior</a></p>
+
+  <!-- Descendant Selector -->
+  <div>
+    <p>Inside a div element, this <span>purple italic span</span> is targeted by descendant selection.</p>
+  </div>
+
+  <!-- Sibling Selectors -->
+  <h2>Section Heading</h2>
+  <p>Adjacent sibling paragraph immediately following the h2 element.</p>
+  <p>General sibling paragraph following the h2 element.</p>
+
+  <!-- Direct Child Selector -->
+  <div class="container">
+    <p>Direct child paragraph inside the container class.</p>
+    <div>
+      <p>Nested paragraph that is not a direct child of container.</p>
+    </div>
+  </div>
+
+  <br>
+
+  <!-- Multiple Classes -->
+  <button class="btn primary">Primary Button</button>
+
+  <br><br>
+
+  <!-- Form & Specific Attribute Input -->
+  <form>
+    <label for="text-input">Text Input (Green Border):</label>
+    <input type="text" id="text-input" placeholder="Type here...">
+    <br><br>
+    <label for="pass-input">Password Input (No Special Border):</label>
+    <input type="password" id="pass-input" placeholder="Password...">
+  </form>
+
+  <br>
+
+  <!-- Table with Grouping Selector -->
+  <table>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+    <tr>
+      <td>Data Cell 1</td>
+      <td>Data Cell 2</td>
+    </tr>
+  </table>
+
+</body>
+</html>
