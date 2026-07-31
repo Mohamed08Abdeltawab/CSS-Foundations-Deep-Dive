@@ -1,0 +1,51 @@
+root {
+    --paper: #0f1014;
+    --paper-strong: #18191e;
+    --surface: #101318;
+    --surface-deep: #0b0d11;
+    --ink: #f4f4f5;
+    --muted: #9b9ba3;
+    --line: #303137;
+    --blue: #8ab4ff;
+    --blue-strong: #a7c7ff;
+    --blue-soft: rgba(138, 180, 255, 0.14);
+    --green: #7bd88f;
+    --green-soft: rgba(123, 216, 143, 0.14);
+    --orange: #f0a45d;
+    --orange-soft: rgba(240, 164, 93, 0.14);
+    --yellow: #e2b86d;
+    --red: #ff7b72;
+    --radius-xl: 32px;
+    --radius-lg: 24px;
+    --radius-md: 18px;
+    --shadow: 0 30px 90px rgba(0, 0, 0, 0.38);
+    color: var(--ink);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    overflow-x: clip;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html[Attributes Style] {
+    -webkit-locale: "en";
+}
+user agent stylesheet
+:root {
+    view-transition-name: root;
+}
+user agent stylesheet
+html {
+    display: block;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
