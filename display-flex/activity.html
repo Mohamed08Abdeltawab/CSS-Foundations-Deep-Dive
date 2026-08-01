@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        .gallery{
+            display: flex;               /* turn on flexbox */
+            /* display: inline;              */
+            flex-direction: row;         /* default: horizontal */
+            flex-wrap: wrap;             /* allow items to wrap */
+            background: #eef;
+            padding: 1rem;
+        }
+
+        .gallery-items{
+            flex: 1 1 calc(33% - 1rem);
+            margin: 0.5rem;
+            border-radius: 10px;
+            max-width: 100%;
+            height: auto;
+            width: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 0.5rem;              /* gap around each image */
+            display: block;
+        }
+
+
+        @media(max-width: 800px){
+            .gallery-items{
+                flex: 1 1 calc(50% - 1rem);
+            }
+        }
+        @media(max-width: 500px){
+            .gallery-items{
+                flex: 1 1 calc(100% - 1rem);
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="gallery">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+        <img class="gallery-items" src="../images/progile.jpeg" alt="Profile Picture">
+    </div>
+</body>
+</html>
