@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .sidebar{
+            position: fixed;
+            top:0;
+            left:0;
+            height: 100%;
+            width: 250px;
+            background-color: #09376c;
+            padding: 20px;
+            color: white;
+            transform: translateX(-100%);
+            transition: transform 0.5s ease;
+            z-index: 1;
+        }
+
+
+        .trigger{
+            position: fixed;
+            top:0;
+            left:0;
+            width: 20px;
+            height: 100%;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .trigger:hover + .sidebar{
+            transform: translateX(0);
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Signing Panel</h1>
+        <p>Welcome to the signing panel. Please sign in to continue.</p>
+    </header>
+
+    <div class="trigger" title="Hover here to open menu"></div>
+
+    <div class="sidebar">
+    <h2 style="color:#ecf0f1; padding:1rem; margin:0;">Menu</h2>
+    <ul style="list-style:none; padding:1rem; color:#bdc3c7;">
+      <li style="margin-bottom:.5rem;">Home</li>
+      <li style="margin-bottom:.5rem;">About</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+</body>
+</html>

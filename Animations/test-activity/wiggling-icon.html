@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon{
+            width: 100px;
+            height: 100px;
+            background-color: #3498db;
+            border-radius: 10px;
+            animation: wiggle .5s infinite alternate linear;
+        }
+        @keyframes wiggle{
+            0%{transform: rotate(15deg);}
+            100%{transform: rotate(-15deg);}
+        }
+    </style>
+
+</head>
+<body>
+    <div class="icon"></div>
+</body>
+</html>
